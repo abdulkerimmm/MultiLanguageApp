@@ -1,0 +1,63 @@
+z/* Hizmetler (Services) Bölümü Stilleri */
+.services {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333; /* Yazı rengini değiştir */
+}
+
+.service {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s; /* Hover efekti için dönüş efekti ekleyin */
+}
+
+.service:hover {
+  transform: translateY(-5px); /* Hover efekti ile yukarı kaydırın */
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s; /* Hover efekti için dönüş efekti ekleyin */
+}
+
+.service:hover img {
+  transform: scale(1.05); /* Hover efekti ile büyütün */
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #007bff; /* Başlık rengini değiştir */
+}
+
+.service p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666; /* Açıklama metni rengini değiştir */
+}
+
+.learn-more {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: inline-block;
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+}

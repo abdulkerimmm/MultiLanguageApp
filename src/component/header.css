@@ -1,0 +1,132 @@
+/* Genel stiller */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header stilleri */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+}
+
+/* Dil Seçimi */
+.language-selector {
+  position: relative;
+}
+
+#language-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#language-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 1;
+}
+
+#language-dropdown a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#language-dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+.language-selector:hover #language-dropdown {
+  display: block;
+}
+
+/* Görsel İyileştirmeler */
+header {
+  background-image: linear-gradient(to bottom, #007bff, #0056b3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#language-button {
+  border-radius: 50px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#language-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Diğer stiller */
+
+/* Responsive stiller */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #language-button {
+    margin-top: 10px;
+  }
+
+  #language-dropdown {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

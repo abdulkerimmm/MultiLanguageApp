@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "message1": "Home",
+    "message2": "About Us",
+    "message3": "Our Services",
+    "message4": "Book an Appointment",
+    "message5": "Contact Us",
+    "message6": "Select Language",
+    "message7": "Turkish",
+    "message8": "English"
+  },
+  "MainPage": {
+    "message1": "Salonium - Appointment Management for Your Beauty Center",
+    "message2": "Easily schedule your appointments with Salonium and manage your business more efficiently",
+    "message3": "Book an Appointment"
+  },
+  "Services": {
+    "message1": "Our Services",
+    "message2": "Service 1 Title",
+    "message3": "Description text for service 1 is here.",
+    "message4": "Learn More",
+    "message5": "Service 2 Title",
+    "message6": "Description text for service 2 is here.",
+    "message7": "Learn More",
+    "message8": "Service 3 Title",
+    "message9": "Description text for service 3 is here.",
+    "message10": "Learn More"
+  },
+
+  "Appointment": {
+    "message1": "Book an Appointment",
+    "message2": "Choose one of our beauty services and schedule an appointment online right away.",
+    "message3": "Book an Appointment"
+  },
+  "Reviews": {
+    "message1": "Customer Reviews",
+    "message2": "Customer 1 Name",
+    "message3": " \"I had an excellent experience. The staff was very professional and courteous.\"",
+    "message4": "Customer 2 Name",
+    "message5": "\"Great service. I will definitely come back.\""
+  },
+  "About": {
+    "message1": "About Us",
+    "message2": "Salonium is a CRM software that provides appointment scheduling and business management solutions for beauty centers and salons.",
+    "message3": "Our mission is to enable businesses to easily schedule appointments and communicate more effectively with their customers.",
+    "message4": "Team Member 1",
+    "message5": "Team Member 2",
+    "message6": "Team Member 3"
+  },
+  "Contact": {
+    "message1": "Contact",
+    "message2": "You can get in touch with Salonium using the following information:",
+    "message3": "Address: 1234 Sample Street, Sample Neighborhood, Sample City",
+    "message4": "Phone: +90 123 456 78 90",
+    "message5": "Email: info@salonium.com",
+    "message6": "Contact Us"
+  },
+  "Footer": {
+    "message1": "Salonium",
+    "message2": "Home",
+    "message3": "About Us",
+    "message4": "Our Services",
+    "message5": "Book an Appointment",
+    "message6": "Contact Us",
+    "message7": "Follow Us",
+    "message8": "Appointment and Information Line: +90 123 456 78 90",
+    "message9": "Email: info@salonium.com"
+  },
+  "Book": {
+    "message1": "We will contact you. Thanks!",
+    "message2": "Back to Main Page",
+    "message3": "Book an Appointment",
+    "message4": "Select a service",
+    "message5": "Haircut",
+    "message6": "Manicure",
+    "message7": "Facial",
+    "message8": "Full Name:",
+    "message9": "Email:",
+    "message10": "Date:",
+    "message11": "Time:",
+    "message12": "Book Appointment"
+  }
+}

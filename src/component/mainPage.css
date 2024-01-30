@@ -1,0 +1,42 @@
+/* Hero (Anasayfa) Bölümü Stilleri */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyfGVufDB8fDB8fHww&w=1000&q=80"); /* Arka plan resmi ekleyin */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff5733;
+}

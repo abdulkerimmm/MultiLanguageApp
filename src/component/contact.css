@@ -1,0 +1,66 @@
+/* İletişim (Contact) Bölümü Stilleri */
+.contact {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #ff5733;
+}
+
+/* Responsive stiller */
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 50px 0;
+  }
+
+  .contact h2 {
+    font-size: 24px;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+
+  .contact ul li {
+    font-size: 16px;
+  }
+
+  .contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

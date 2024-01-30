@@ -1,0 +1,56 @@
+/* Randevu (Appointment) Bölümü Stilleri */
+.appointment {
+  background-image: url("https://cdn1.treatwell.net/images/view/v2.i1714595.w720.h480.x885BB478/"); /* Arka plan resmi ekleyin */
+  background-size: cover;
+  background-position: center;
+  color: #eb1313f5;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.appointment h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.appointment p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.appointment-button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.appointment-button:hover {
+  background-color: #ff5733;
+}
+
+/* Responsive stiller */
+@media screen and (max-width: 768px) {
+  .appointment {
+    padding: 50px 0;
+  }
+
+  .appointment h2 {
+    font-size: 24px;
+  }
+
+  .appointment p {
+    font-size: 16px;
+  }
+
+  .appointment-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

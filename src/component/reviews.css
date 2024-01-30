@@ -1,0 +1,53 @@
+/* Müşteri Yorumları (Reviews) Bölümü Stilleri */
+.reviews {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.reviews h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.review {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+
+.review img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.rating {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.rating span {
+  color: #ffcc00;
+}
+
+.review p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* İhtiyaca göre daha fazla stil ekleyebilirsiniz */

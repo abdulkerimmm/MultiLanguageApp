@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "message1": "Ana Sayfa",
+    "message2": "Hakkımızda",
+    "message3": "Hizmetlerimiz",
+    "message4": "Randevu Al",
+    "message5": "İletişim",
+    "message6": "Dil Seç",
+    "message7": "Türkçe",
+    "message8": "İngilizce"
+  },
+  "MainPage": {
+    "message1": "Salonium - Güzellik Merkeziniz İçin Randevu Yönetimi",
+    "message2": "Salonium ile randevularınızı kolayca planlayın ve işinizi daha verimli yönetin",
+    "message3": "Randevu Al"
+  },
+  "Services": {
+    "message1": "Hizmetlerimiz",
+    "message2": "Hizmet 1 Başlık",
+    "message3": "Açıklama metni hizmet 1 için burada.",
+    "message4": "Daha Fazla Bilgi",
+    "message5": "Hizmet 2 Başlık",
+    "message6": "Açıklama metni hizmet 2 için burada.",
+    "message7": "Daha Fazla Bilgi",
+    "message8": "Hizmet 3 Başlık",
+    "message9": "Açıklama metni hizmet 3 için burada.",
+    "message10": " Daha Fazla Bilgi"
+  },
+  "Appointment": {
+    "message1": "Randevu Al",
+    "message2": "Güzellik hizmetlerimizden birini seçin ve hemen online randevu alın.",
+    "message3": "Randevu Al"
+  },
+  "Reviews": {
+    "message1": "Müşteri Yorumları",
+    "message2": "Müşteri 1 Adı",
+    "message3": " \"Mükemmel bir deneyim yaşadım. Personel çok profesyonel ve nazikti.\"",
+    "message4": "Müşteri 2 Adı",
+    "message5": "\"Harika bir hizmet. Kesinlikle tekrar geleceğim.\""
+  },
+  "About": {
+    "message1": "Hakkımızda",
+    "message2": " Salonium, güzellik merkezleri ve salonlar için randevu yönetimi ve iştakibi çözümleri sunan bir CRM yazılımıdır.",
+    "message3": "Misyonumuz, işletmelerin randevuları kolayca planlamalarını vemüşterileriyle daha etkili bir şekilde iletişim kurmalarını sağlamaktır.",
+    "message4": "Ekip Üyesi 1",
+    "message5": "Ekip Üyesi 2",
+    "message6": "Ekip Üyesi 3"
+  },
+  "Contact": {
+    "message1": "İletişim",
+    "message2": "Salonium ile iletişime geçmek için aşağıdaki bilgilerikullanabilirsiniz:",
+    "message3": "Adres: 1234 Örnek Cadde, Örnek Mahalle, Örnek Şehir",
+    "message4": "Telefon: +90 123 456 78 90",
+    "message5": "E-posta: info@salonium.com",
+    "message6": "İletişime Geç"
+  },
+  "Footer": {
+    "message1": "Salonium",
+    "message2": "Ana Sayfa",
+    "message3": "Hakkımızda",
+    "message4": "Hizmetlerimiz",
+    "message5": "Randevu Al",
+    "message6": "İletişim",
+    "message7": "Bizi Takip Edin",
+    "message8": "Randevu ve Bilgi Hattı: +90 123 456 78 90",
+    "message9": "E-posta: info@salonium.com"
+  },
+  "Book": {
+    "message1": "Sizinle iletişime geçeceğiz. Teşekkürler!",
+    "message2": "Ana Sayfaya Dön",
+    "message3": "Randevu Al",
+    "message4": "Bir hizmet seçin",
+    "message5": "Saç Kesimi",
+    "message6": "Manikür",
+    "message7": "Yüz Bakımı",
+    "message8": "Ad Soyad:",
+    "message9": "E-posta:",
+    "message10": "Tarih:",
+    "message11": "Saat:",
+    "message12": "Randevu Al"
+  }
+}
