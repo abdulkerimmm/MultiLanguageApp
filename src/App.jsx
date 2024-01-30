@@ -10,8 +10,8 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import BookAppointment from "./component/BookAppointment";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BookAppointment from "./component/BookAppointment";
 
 function App() {
   const [t, i18n] = useTranslation("global");
@@ -47,17 +47,17 @@ function App() {
     </div>
   );
 }
-export default App;
-// function Root() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<App />} />
-//         <Route path="BookAppointment" element={<BookAppointment />} />
-//         {/* Other routes go here */}
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
 
-// export default Root;
+function Root() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="BookAppointment" element={<BookAppointment />} />
+        {/* Other routes go here */}
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default Root;
