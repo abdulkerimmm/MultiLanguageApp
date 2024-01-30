@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
@@ -15,7 +14,7 @@ const MessageContainer = styled.div`
 `;
 
 const MessageTitle = styled.h1`
-  color: green;
+  color: #4caf10;
 `;
 
 const Button = styled.button`
@@ -47,7 +46,7 @@ const Select = styled.select`
   font-size: 16px;
 `;
 
-const BookAppointment = () => {
+const BookAppointment = ({ onToggleBookAppointment }) => {
   const [t, i18n] = useTranslation("global");
   const [formData, setFormData] = useState({
     serviceName: "",
@@ -71,11 +70,13 @@ const BookAppointment = () => {
   };
 
   return (
-    <>
+    <div style={{ backgroundColor: "gray" }}>
       {formSubmitted ? (
         <MessageContainer>
           <MessageTitle>{t("Book.message1")}</MessageTitle>
-          <Link to="/">{t("Book.message2")}</Link>
+          <Button onClick={onToggleBookAppointment}>
+            {t("Book.message2")}
+          </Button>
         </MessageContainer>
       ) : (
         <form styl>
@@ -136,7 +137,7 @@ const BookAppointment = () => {
           </MessageContainer>
         </form>
       )}
-    </>
+    </div>
   );
 };
 

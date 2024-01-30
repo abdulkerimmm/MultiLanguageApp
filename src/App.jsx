@@ -8,13 +8,14 @@ import Reviews from "./component/Reviews";
 import About from "./component/About";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BookAppointment from "./component/BookAppointment";
 
 function App() {
+  const [showBookAppointment, setShowBookAppointment] = useState(false);
   const [t, i18n] = useTranslation("global");
+
   useEffect(() => {
     const fetchLocation = async () => {
       try {
@@ -34,30 +35,30 @@ function App() {
     fetchLocation();
   }, []);
 
+  const handleToggleBookAppointment = () => {
+    setShowBookAppointment(!showBookAppointment);
+  };
+
   return (
     <div className="App">
-      <Header />
-      <MainPage />
-      <Services />
-      <Appointment />
-      <Reviews />
-      <About />
-      <Contact />
-      <Footer />
+      {showBookAppointment ? (
+        <BookAppointment
+          onToggleBookAppointment={handleToggleBookAppointment}
+        />
+      ) : (
+        <>
+          <Header />
+          <MainPage />
+          <Services onToggleBookAppointment={handleToggleBookAppointment} />
+          <Appointment onToggleBookAppointment={handleToggleBookAppointment} />
+          <Reviews />
+          <About />
+          <Contact onToggleBookAppointment={handleToggleBookAppointment} />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
 
-function Root() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="BookAppointment" element={<BookAppointment />} />
-        {/* Other routes go here */}
-      </Routes>
-    </BrowserRouter>
-  );
-}
-
-export default Root;
+export default App;
