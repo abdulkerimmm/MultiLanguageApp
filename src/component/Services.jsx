@@ -1,7 +1,7 @@
 import React from "react";
 import "./services.css";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Services = () => {
   const [t, i18n] = useTranslation("global");
@@ -19,25 +19,25 @@ const Services = () => {
         <img src={service1} alt="Hizmet 1" />
         <h3>{t("Services.message2")}</h3>
         <p>{t("Services.message3")}</p>
-        <NavLink to="/BookAppointment">
-          <button class="learn-more">{t("Services.message4")}</button>
-        </NavLink>
+        {/* <NavLink to="/BookAppointment"> */}
+        <button class="learn-more">{t("Services.message4")}</button>
+        {/* </NavLink> */}
       </div>
       <div className="service">
         <img src={service2} alt="Hizmet 2" />
         <h3>{t("Services.message5")}</h3>
         <p>{t("Services.message6")}</p>
-        <NavLink to="/BookAppointment">
-          <button class="learn-more">{t("Services.message7")}</button>
-        </NavLink>
+        {/* <NavLink to="/BookAppointment"> */}
+        <button class="learn-more">{t("Services.message7")}</button>
+        {/* </NavLink> */}
       </div>
       <div className="service">
         <img src={service3} alt="Hizmet 3" />
         <h3>{t("Services.message8")}</h3>
         <p>{t("Services.message9")}</p>
-        <NavLink to="/BookAppointment">
-          <button class="learn-more">{t("Services.message10")}</button>
-        </NavLink>
+        {/* <NavLink to="/BookAppointment"> */}
+        <button class="learn-more">{t("Services.message10")}</button>
+        {/* </NavLink> */}
       </div>
     </section>
   );

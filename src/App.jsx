@@ -1,4 +1,3 @@
-import React, { useEffect, useState, useTransition } from "react";
 import axios from "axios";
 import "./App.css";
 import Header from "./component/Header";
@@ -9,8 +8,9 @@ import Reviews from "./component/Reviews";
 import About from "./component/About";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import BookAppointment from "./component/BookAppointment";
 
 function App() {

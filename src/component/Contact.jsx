@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global");
@@ -14,11 +14,9 @@ const Contact = () => {
         <li>{t("Contact.message4")}</li>
         <li>{t("Contact.message5")}</li>
       </ul>
-      <NavLink to="/BookAppointment">
-      <button className="contact-button">
-        {t("Contact.message6")}
-      </button>
-      </NavLink>
+      {/* <NavLink to="/BookAppointment"> */}
+      <button className="contact-button">{t("Contact.message6")}</button>
+      {/* </NavLink> */}
     </section>
   );
 };
