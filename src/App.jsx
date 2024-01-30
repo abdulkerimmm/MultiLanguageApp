@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const fetchLocation = async () => {
       try {
-        const response = await axios.get("https://ip-api.com/json");
+        const response = await axios.get("/ip-api/json");
         const data = response.data;
         const location = data.countryCode === "TR" ? "tr" : "en"; // Ülke koduna göre dil seçimi
         location === "tr"
