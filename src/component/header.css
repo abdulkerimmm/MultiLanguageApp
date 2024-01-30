@@ -54,6 +54,7 @@ nav ul li a:hover {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 4px; /* Add border-radius for a softer look */
 }
 
 #language-dropdown {
@@ -66,6 +67,28 @@ nav ul li a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   display: none;
   z-index: 1;
+  min-width: 120px; /* Set a minimum width for the dropdown */
+}
+
+#language-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#language-dropdown button:hover {
+  background-color: #bbb1b1;
+}
+
+.language-selector:hover #language-dropdown {
+  display: block;
 }
 
 #language-dropdown a {
@@ -77,9 +100,9 @@ nav ul li a:hover {
   transition: background-color 0.3s;
 }
 
-#language-dropdown a:hover {
+/* #language-dropdown a:hover {
   background-color: #f0f0f0;
-}
+} */
 
 .language-selector:hover #language-dropdown {
   display: block;
